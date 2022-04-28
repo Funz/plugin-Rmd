@@ -1,0 +1,7 @@
+
+
+processing file: Untitled.Rmd
+output file: Untitled.knit.md
+
+
+Output created: Untitled.Rmd.html

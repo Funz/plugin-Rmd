@@ -1,0 +1,11 @@
+#Thu Apr 28 18:43:15 CEST 2022
+duration=0
+output={mean_speed\=15.4}
+output.mean_speed=15.4
+code=Rmd
+input.No\ name=No value
+start=18\:43\:14
+end=
+state=running
+calc=localhost\:41909
+info=Results parsed\: {1\=1.0, mean_speed\=15.4}

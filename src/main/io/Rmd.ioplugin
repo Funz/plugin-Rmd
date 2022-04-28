@@ -1,0 +1,11 @@
+variableStartSymbol=?
+variableLimit=[...]
+formulaStartSymbol=!
+formulaLimit={...}
+commentLineChar=#
+
+datasetFilter=contains("(.*)","cat\\(") & contains("(.*)","---")
+
+outputlist=`grep("(.*)Rmd","^(.*)=.r\\s")>>before("=")`
+
+output.???.get=lines("(.*)html") >> filter("^<p>???=(.*)</p>$") >> after("=") >> before("<")
